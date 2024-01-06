@@ -1,4 +1,4 @@
 public class name {
-public static void main (System[]args) {
+public static void main (String[]args) {
 System.out.println("im karthik"); }
 }

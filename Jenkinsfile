@@ -4,7 +4,7 @@ stages {
 stage('Build') {
             steps {
                 // Compile your Java code
-                sh 'javac -sourcepath src -d build src/name.java'
+                sh 'javac -sourcepath src -d build name.java'
             }
         }
         

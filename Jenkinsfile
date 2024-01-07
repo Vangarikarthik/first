@@ -1,5 +1,5 @@
 pipeline {
-agent any {
+agent any 
 stages {
 stage ('run') { 
 steps {
@@ -8,4 +8,4 @@ java name }
 }
 }
 }
-}
+
